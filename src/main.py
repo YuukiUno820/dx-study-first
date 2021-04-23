@@ -16,10 +16,10 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
     test = datetime.datetime.now()
-    a = 1 + 2
 
     test_str, test_str2 = first_method("aaa", "bb", "testC")
 
+    print(test.year)
     print(test_str)
     print(test_str2)
 
