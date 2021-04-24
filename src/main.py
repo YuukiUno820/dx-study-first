@@ -26,13 +26,13 @@ def print_hi(name):
 
 def first_method(ai, ue, o) -> Tuple[str, str]:
     """
-    :param ai:
-    :param ue:
+    :param ai:ai
+    :param ue:first_method
     :param o:
     :return str:
     """
 
-    aaa = ai + ue + o
+    aaa = ai + ue + o + o
     return aaa, ai
 
 
